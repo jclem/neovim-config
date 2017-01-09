@@ -16,8 +16,8 @@ nnoremap <silent> <leader>% :let @*=expand("%").":".line(".")<cr>
 nnoremap <silent> \ :NERDTreeToggle<cr>
 
 " Splits
-nnoremap <leader>h :split<cr>
-nnoremap <leader>v :vsplit<cr>
+nnoremap <leader>- :split<cr>
+nnoremap <leader>\| :vsplit<cr>
 
 " Window navigation
 nnoremap <c-h> <c-w>h
