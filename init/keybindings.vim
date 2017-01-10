@@ -45,7 +45,13 @@ nnoremap <leader>fb :Buffers<cr>
 nnoremap <leader>fl :BLines<cr>
 
 " Fuzzy command history finder
-nnoremap <leader>fc :History:<cr>
+nnoremap <leader>fh :History:<cr>
+
+" Fuzzy help tags finder
+nnoremap <leader>f? :Helptags<cr>
+
+" Fuzzy command finder
+nnoremap <leader>fc :Commands<cr>
 
 " Fuzzy snippet finder
 nnoremap <leader>fs :Snippets<cr>
