@@ -1,0 +1,55 @@
+snippet def "Define function"
+def ${1:function_name}(${2:argument_one}) do
+	$0
+end
+endsnippet
+
+snippet defm "Define module"
+defmodule ${1:${2:Namespace}.${3:ModuleName}} do
+	@moduledoc """
+	$0
+	"""
+end
+endsnippet
+
+snippet defp "Define private function"
+defp ${1:function_name}(${2:argument_one}) do
+	$0
+end
+endsnippet
+
+snippet desc "ExUnit description"
+describe "${1:description}" do
+	$0
+end
+endsnippet
+
+snippet doc "Function documentation"
+@doc """
+$0
+"""
+endsnippet
+
+snippet i "Inspect"
+IO.inspect($0)
+endsnippet
+
+snippet pcon "Phoenix Controller"
+def ${1:Namespace}.${2:Resource}Controller do
+	use $1.Web, :controller
+
+	$0
+end
+endsnippet
+
+snippet pweb "Phoenix web module"
+def ${1:Namespace}.${2:Module} do
+	use $1.Web, $3
+
+	$0
+end
+endsnippet
+
+snippet spec "Function specification"
+@spec ${1:function}(${2:argument_one}) :: ${3:result}
+endsnippet

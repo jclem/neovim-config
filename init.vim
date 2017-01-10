@@ -10,7 +10,9 @@ Plug 'powerman/vim-plugin-AnsiEsc'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'sirver/ultisnips'
 Plug 'slashmili/alchemist.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
