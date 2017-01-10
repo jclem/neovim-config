@@ -7,11 +7,12 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'powerman/vim-plugin-AnsiEsc'
-Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'something/nerdcommenter'
+Plug 'something/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'sirver/ultisnips'
 Plug 'slashmili/alchemist.vim'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
