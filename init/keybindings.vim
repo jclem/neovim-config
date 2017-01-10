@@ -33,4 +33,19 @@ map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
 
 " Fuzzy file finder (fzf)
-nnoremap <leader>f :FZF<cr>
+nnoremap <leader>ff :FZF<cr>
+
+" Fuzzy buffer finder
+nnoremap <leader>fb :Buffers<cr>
+
+" Fuzzy buffer line finder
+nnoremap <leader>fl :BLines<cr>
+
+" Fuzzy command history finder
+nnoremap <leader>fc :History:<cr>
+
+" Fuzzy snippet finder
+nnoremap <leader>fs :Snippets<cr>
+
+" Fuzzy git status finder
+nnoremap <leader>fg :GFiles?<cr>
