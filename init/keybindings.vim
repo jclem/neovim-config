@@ -9,6 +9,9 @@ nnoremap <silent> <leader>rv :source $MYVIMRC<cr>
 " Clear search
 nnoremap <silent> <space> :nohlsearch<Bar>:echo<cr>""
 
+" GUndo
+nnoremap <silent> <leader>u :GundoToggle<cr>
+
 " Copy file path/line number
 nnoremap <silent> <leader>% :let @*=expand("%").":".line(".")<cr>
 
