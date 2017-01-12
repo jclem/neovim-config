@@ -37,6 +37,10 @@ map <ScrollWheelDown> <C-E>
 
 " Fuzzy file finder (fzf)
 nnoremap <leader>ff :FZF<cr>
+nnoremap <leader>t :FZF<cr>
+
+" Fuzzy ag finder
+nnoremap <leader>fa :Ag<cr>
 
 " Fuzzy buffer finder
 nnoremap <leader>fb :Buffers<cr>
