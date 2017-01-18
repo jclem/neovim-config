@@ -14,6 +14,7 @@ Plug 'sirver/ultisnips'
 Plug 'sjl/gundo.vim'
 Plug 'slashmili/alchemist.vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 
