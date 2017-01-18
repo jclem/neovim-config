@@ -41,7 +41,7 @@ $0
 endsnippet
 
 snippet pcon "Phoenix Controller"
-def ${1:Namespace}.${2:Resource}Controller do
+defmodule ${1:Namespace}.${2:Resource}Controller do
 	use $1.Web, :controller
 
 	$0
@@ -49,7 +49,7 @@ end
 endsnippet
 
 snippet pweb "Phoenix web module"
-def ${1:Namespace}.${2:Module} do
+defmodule ${1:Namespace}.${2:Module} do
 	use $1.Web, $3
 
 	$0
