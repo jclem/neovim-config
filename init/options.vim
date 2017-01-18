@@ -49,6 +49,7 @@ set colorcolumn=80
 " Auto-write buffers on actions/focus/leave buffer
 set autowriteall
 autocmd BufLeave,FocusLost * silent! wall
+autocmd FocusLost,FocusGained * silent! checktime
 
 " Soft, two-space tabs
 set tabstop=2
