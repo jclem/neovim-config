@@ -48,6 +48,14 @@ defmodule ${1:Namespace}.${2:Resource}Controller do
 end
 endsnippet
 
+snippet pview "Phoenix view module"
+defmodule ${1:Namespace}.${2:Resource}View do
+	use $1.Web, :view
+
+	$0
+end
+endsnippet
+
 snippet pweb "Phoenix web module"
 defmodule ${1:Namespace}.${2:Module} do
 	use $1.Web, $3
