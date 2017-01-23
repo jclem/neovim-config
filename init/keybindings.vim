@@ -18,6 +18,10 @@ nnoremap <silent> <leader>% :let @*=expand("%").":".line(".")<cr>
 " Toggle NERDTree
 nnoremap <silent> \ :NERDTreeToggle<cr>
 
+" Tab navigation
+nnoremap <silent> <leader>n :tabnext<cr>
+nnoremap <silent> <leader>p :tabprevious<cr>
+
 " Splits
 nnoremap <leader>- :split<cr>
 nnoremap <leader>\| :vsplit<cr>
