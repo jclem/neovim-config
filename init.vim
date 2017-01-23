@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'dkprice/vim-easygrep'
 Plug 'elixir-lang/vim-elixir'
 Plug 'joshdick/onedark.vim'
 Plug '/usr/local/opt/fzf'
