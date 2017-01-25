@@ -66,3 +66,6 @@ nnoremap <leader>fs :Snippets<cr>
 
 " Fuzzy git status finder
 nnoremap <leader>fg :GFiles?<cr>
+
+" Dash keybindings
+nmap <leader>d <Plug>DashSearch
