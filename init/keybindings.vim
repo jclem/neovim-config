@@ -69,3 +69,9 @@ nnoremap <leader>fg :GFiles?<cr>
 
 " Dash keybindings
 nmap <leader>d <Plug>DashSearch
+
+" Interactive EasyAlign in visual
+xmap ga <Plug>(EasyAlign)
+
+" Interactive EasyAlign in normal
+nmap ga <Plug>(EasyAlign)
