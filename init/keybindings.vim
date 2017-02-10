@@ -75,3 +75,6 @@ xmap ga <Plug>(EasyAlign)
 
 " Interactive EasyAlign in normal
 nmap ga <Plug>(EasyAlign)
+
+" Zoom the current window by opening it in a new tab
+nnoremap <silent> <leader>z :tab split<cr>
