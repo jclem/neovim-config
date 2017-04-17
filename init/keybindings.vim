@@ -7,6 +7,10 @@ vnoremap ; :
 " Reload configuration
 nnoremap <silent> <leader>rv :source $MYVIMRC<cr>
 
+" Global replace
+nnoremap <leader>S :%s/
+vnoremap <leader>S :s/
+
 " Clear search
 nnoremap <silent> <space> :nohlsearch<Bar>:echo<cr>""
 
