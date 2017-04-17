@@ -2,6 +2,7 @@ let mapleader = ','
 
 " Enter Ex with one keystroke
 nnoremap ; :
+vnoremap ; :
 
 " Reload configuration
 nnoremap <silent> <leader>rv :source $MYVIMRC<cr>
@@ -14,6 +15,7 @@ nnoremap <silent> <leader>u :GundoToggle<cr>
 
 " Copy file path/line number
 nnoremap <silent> <leader>% :let @*=expand("%").":".line(".")<cr>
+vnoremap <silent> <leader>% :let @*=expand("%").":".line(".")<cr>
 
 " Toggle NERDTree
 nnoremap <silent> \ :NERDTreeToggle<cr>
