@@ -1,10 +1,13 @@
 call plug#begin()
 
 Plug '/usr/local/opt/fzf'
+Plug 'cespare/vim-toml'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'derekwyatt/vim-scala'
 Plug 'dkprice/vim-easygrep'
 Plug 'elixir-lang/vim-elixir'
 Plug 'fatih/vim-go'
+Plug 'herringtondarkholme/yats.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
@@ -25,7 +28,6 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'cespare/vim-toml'
 
 call plug#end()
 
