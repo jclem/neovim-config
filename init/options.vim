@@ -10,7 +10,10 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-colorscheme onedark
+set background=dark
+let g:one_allow_italics=1
+set termguicolors
+colorscheme one
 
 set encoding=utf-8
 

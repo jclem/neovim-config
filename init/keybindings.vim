@@ -82,5 +82,8 @@ xmap ga <Plug>(EasyAlign)
 " Interactive EasyAlign in normal
 nmap ga <Plug>(EasyAlign)
 
+" Swap background
+nnoremap <leader>bg :let &background = ( &background == "dark" ? "light": "dark" )<cr>
+
 " Zoom the current window by opening it in a new tab
 nnoremap <silent> <leader>z :tab split<cr>
