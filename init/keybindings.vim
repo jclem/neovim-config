@@ -87,3 +87,7 @@ nnoremap <leader>bg :let &background = ( &background == "dark" ? "light": "dark"
 
 " Zoom the current window by opening it in a new tab
 nnoremap <silent> <leader>z :tab split<cr>
+
+" Go to TS definition
+nnoremap <silent> <leader>gd :TSDef<cr>
+nnoremap <silent> <leader>gdp :TSDefPreview<cr>
