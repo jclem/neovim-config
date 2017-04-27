@@ -1,1 +1,1 @@
-let g:alchemist#elixir_erlang_src = '/Users/clem/Projects/elixir-otp-source'
+let g:alchemist#elixir_erlang_src = '/usr/local/src'
