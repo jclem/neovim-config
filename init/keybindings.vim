@@ -86,7 +86,7 @@ nmap ga <Plug>(EasyAlign)
 nnoremap <leader>bg :let &background = ( &background == "dark" ? "light": "dark" )<cr>
 
 " Zoom the current window by opening it in a new tab
-nnoremap <silent> <leader>z :tab split<cr>
+nnoremap <silent> <leader>z <c-w>T
 
 " Go to TS definition
 nnoremap <silent> <leader>gd :TSDef<cr>
